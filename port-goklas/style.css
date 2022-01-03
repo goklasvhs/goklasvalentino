@@ -1,0 +1,108 @@
+/* Bagian Navbar */
+.gv-navbar{
+    padding-top:  20px;
+    font-size: 18px;
+}
+
+.gv-navbar a{
+    color: white;
+}
+
+.navbar-brand img{
+    margin: -16px;
+    width: 55px;
+    height: 55px;
+}
+
+.navbar-nav {
+    width: 50rem;
+}
+
+.gv-button a{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+
+/* Bagian Container */
+.content {
+    margin-top: -5em;
+    background-color: black;
+    width: 100vw;
+    height: 150vh;
+}
+
+.row {
+    padding-top: 5em;
+    max-height: 150vh;
+}
+
+/* Kolom 1 */
+.kolom1 {
+    padding-top: 7em;
+    color: white;
+    font-weight: 700;
+    font-size: 52px;
+    position: relative;
+    z-index: 3;
+}
+
+.kolom1 img {
+    margin-left: 8.4em;
+    height: 5em;
+}
+
+.port-btn .port{
+    padding: 10px 30px 14px;
+    border-radius: 50px;
+    font-size: 32px;
+    color : black;
+    background-color: white;
+}
+
+.port-btn i, .arrow{
+    display: inline-block;
+    transform: scale(2.9);
+}
+
+.down {
+    display: block;
+    margin-left: -2.2em ;
+    padding-top: 2em;
+}
+
+.port-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Kolom 2 */
+.kolom2 {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 15em 0 0 8em;
+    position: relative;
+    z-index: 2;
+}
+
+.foto-goklas img{
+    position: relative;
+    left: -15em;
+    bottom: 53em;
+    z-index: 1;
+}
+
+.love-img {
+    margin-top: -4em;
+    margin-left: -4em;
+}
+
+.UI-UX {
+    margin-top: -4em;
+} 
+
+/* Break point */
+/* @media screen and (min-width: 729px) {
+    .gv-navbar a
+} */
